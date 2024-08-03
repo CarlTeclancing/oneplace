@@ -7,9 +7,10 @@ body{
     justify-content: space-between;
 }
 .main{
-width: 1140px;
-padding: 20px;
-background-color: rgb(88, 30, 141);
+width: 1170px;
+padding: 24px;
+
+
 }
 .header{
   display: flex;
@@ -33,7 +34,7 @@ button{
     color: rgb(255, 255, 255);
 }
 .b{
-    color: gray;
+    color: rgb(226, 213, 213);
 }
 .section{
    
@@ -45,4 +46,12 @@ button{
     margin-left: 400px;
     text-align: center;
 }
-   
+   .img{
+    background-image: url('/oneplace/images/background.png');
+    background-size: cover;
+    background-position: center;
+    width: 1140px;
+    padding: 20px;
+    
+
+   }
