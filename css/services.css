@@ -7,7 +7,7 @@ body{
     justify-content: space-between;
 }
 .main{
-width: 1170px;
+width: 1140px;
 padding: 24px;
 
 
@@ -37,7 +37,7 @@ button{
     color: rgb(226, 213, 213);
 }
 .section{
-   
+    padding: 20px;
 }
 .section1{
     
@@ -52,6 +52,39 @@ button{
     background-position: center;
     width: 1140px;
     padding: 20px;
-    
-
    }
+   .card{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:blueviolet;
+    width: 1180px;
+   }
+.cart{
+    background-color:whitesmoke;
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+  
+}
+.sub{
+    text-align: center;
+}
+.sub3{
+    color: palevioletred;
+}
+.allitems{
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgba(73, 73, 72, 0.253);
+    width: 1180px;
+}
+.copy{
+    background-color:  rgba(73, 73, 72, 0.253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 1180px;
+}
+ 
