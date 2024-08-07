@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./DshBd.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <h2>OnePlace</h2>
+        </div>
+        <nav>
+            <ul>
+                <li class="actV"><a href="/dashbaord/DshB-Index.html">Dashboard</a></li> <br>
+                <li><a href="#">Leaderboard</a></li> <br>
+                <li><a href="#">Order</a></li> <br>
+                <li><a href="/pages/product.html">Products</a></li> <br>
+                <li><a href="#">Sales Report</a></li> <br>
+                <li><a href="#">Messages</a></li> <br>
+                <li><ahref="#">Settings</a></li> <br>
+                <li><a href="#">Sign Out</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <header>
+            <div class="search-wrapper">
+                <input type="text" placeholder="Search here...">
+            </div>
+            <div class="user-wrapper">
+                <img src="/images/istockphoto-1216010415-612x612.jpg" alt="PsnalLogo">
+                <div>
+                    <h4>Beris-Team2</h4>
+                    <small>Admin</small>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>$1K</h3>
+                        <p>Total Sales</p>
+                        <span>+8% from yesterday</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>300</h3>
+                        <p>Total Orders</p>
+                        <span>+5% from yesterday</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>5</h3>
+                        <p>Product Sold</p>
+                        <span>+1.2% from yesterday</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>8</h3>
+                        <p>New Customers</p>
+                        <span>+0.5% from yesterday</span>
+                    </div>
+                </div>
+            </div>
+            
+    <!--
+            <div class="charts">
+                <div class="chart">
+                    <h2>Visitor Insights</h2>
+                    <canvas id="visitorChart"></canvas>
+                </div>
+             -->
+
+                <div class="user-table">
+                    <h2>User Transactions</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Email</th>
+                                <th>Amount</th>
+                                <th>Transaction ID</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>N Kernyuy</td>
+                                <td>Betokenz@gmail.com</td>
+                                <td>XAF 500</td>
+                                <td>bce23nf7800p12cb13345</td>
+                                <td class="status pending">Pending</td>
+                            </tr>
+                            <tr>
+                                <td>Kings Edmond</td>
+                                <td>Pela@gmail.com</td>
+                                <td>XAF 500</td>
+                                <td>bce23nf7800p12cb13345</td>
+                                <td class="status confirmed">Confirmed</td>
+                            </tr>
+                            <tr>
+                                <td>Bebeto John</td>
+                                <td>Kenzo@gmail.com</td>
+                                <td>XAF 500</td>
+                                <td>bce23nf7800p12cb13345</td>
+                                <td class="status failed">Failed</td>
+                            </tr>
+                            <tr>
+                                <td>Chralse Brutus</td>
+                                <td>Shapekenzo@gmail.com</td>
+                                <td>XAF 500</td>
+                                <td>bce23nf7800p12cb13345</td>
+                                <td class="status confirmed">Confirmed</td>
+                            </tr>
+                            <tr>
+                                <td>Denis Eric Lots</td>
+                                <td>Zita@gmail.com</td>
+                                <td>XAF 500</td>
+                                <td>bce23nf7800p12cb13345</td>
+                                <td class="status confirmed">Confirmed</td>
+                            </tr>
+                            <tr>
+                                <td>Pual Kerry Frank</td>
+                                <td>Shapekenzo@gmail.com</td>
+                                <td>XAF 500</td>
+                                <td>bce23nf7800p12cb13345</td>
+                                <td class="status confirmed">Confirmed</td>
+                            </tr>
+                            <tr>
+                                <td>Mickey Jackson</td>
+                                <td>Shapekenzo@gmail.com</td>
+                                <td>XAF 500</td>
+                                <td>bce23nf7800p12cb13345</td>
+                                <td class="status confirmed">Confirmed</td>
+                            </tr>
+                            <tr>
+                                <td>Evance Nice</td>
+                                <td>Shapekenzo@gmail.com</td>
+                                <td>XAF 500</td>
+                                <td>bce23nf7800p12cb13345</td>
+                                <td class="status confirmed">Confirmed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

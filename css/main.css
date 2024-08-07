@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0
+    ;
+    background-size: cover;
+    color: white;
+    background-color: pink;
+}
+
+
+/* the header section of team 2---to-be-re-used  */
+.card{
+    width: 100%;
+    
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: -60px;
+    margin-top: 30px;
+}
+.p7{
+    background-image: url('/Assets/media/mainpic.jpg');
+    
+}
+    .p3{
+    position: relative;
+    right: 100px;
+    width: 20%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 6%;
+}
+    .light{
+    color: blue;
+    font-weight: bold;
+}
+    .p1 {
+    position: relative;
+    left: 400px;
+    width: 20%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+.register{
+    display: flex;
+}
+.deliver{
+    position: relative;
+    left: 35px;
+    margin-top: 10px;
+}
+.cmr{
+    width: 20px;
+}
+.p13{
+    position: relative;
+    left: 48px;
+    margin-top: 23px;
+}
+.sign-up{
+    position: relative;
+    left: 60px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: gold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white; 
+}
+.sign-in{
+    position: relative;
+    left: 60px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+    
+
+.highlight {
+    color: blue; 
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.main{
+    position: relative;
+    bottom: 400px;
+}
+
+.p5{
+    height: 200px;
+}
+.p8{
+    height: 200px;
+}
+
+
+
+
+.product-grid{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p9{
+    width:90%;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    padding-right: 150px;
+    margin-top: -240px;
+    margin-bottom: -50px;
+    padding-bottom: 70px;
+}
+
+
+.p10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(174, 173, 173, 0.982);
+    height: 200px;
+}
+.p11{
+    padding-top: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+
+
+
+.p2 {
+    text-align: center;
+    margin-top: 100px;
+}
+.search-bar {
+    margin-top: 20px;
+}
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+.search-bar button {
+    padding: 10px 15px;
+    border: none;
+    background: gold; 
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.products {
+    margin-top: 50px;
+    text-align: center;
+}
+.product-grid {
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    color: black;
+    margin: 2px;
+    margin-top: 30px;
+    padding-left: 70px;
+
+}
+.product-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 12px;
+    text-align: left;
+    color: black;
+}
+.product-card img{
+    width: 240px;
+    border-radius: 10px;
+    
+}
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+}
+.subscribe {
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    border-radius: 10px;
+}
+.subscribe input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+.subscribe button {
+    padding: 10px 15px;
+    border: none;
+    background: gold; 
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    margin-top: -50px;
+}
