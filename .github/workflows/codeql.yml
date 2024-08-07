@@ -24,7 +24,7 @@ jobs:
       matrix:
         language:
           - javascript-typescript
-          - php
+          
 
     steps:
     - name: Checkout repository
@@ -45,11 +45,6 @@ jobs:
       if: matrix.language == 'javascript-typescript'
       run: |
         npm install
-
-    - name: Build PHP (if needed)
-      if: matrix.language == 'php'
-      run: |
-        # Add PHP build steps if necessary (e.g., install dependencies)
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
