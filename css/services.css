@@ -1,0 +1,90 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+   align-items: center;
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+.main{
+width: 1140px;
+padding: 24px;
+
+
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.element{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+button{
+    background-color: blue;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.a{
+    color: rgb(255, 255, 255);
+}
+.b{
+    color: rgb(226, 213, 213);
+}
+.section{
+    padding: 20px;
+}
+.section1{
+    
+    margin-top:150px;
+    width: 70%;
+    margin-left: 400px;
+    text-align: center;
+}
+   .img{
+    background-image: url('/oneplace/images/background.png');
+    background-size: cover;
+    background-position: center;
+    width: 1140px;
+    padding: 20px;
+   }
+   .card{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:blueviolet;
+    width: 1180px;
+   }
+.cart{
+    background-color:whitesmoke;
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+  
+}
+.sub{
+    text-align: center;
+}
+.sub3{
+    color: palevioletred;
+}
+.allitems{
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgba(73, 73, 72, 0.253);
+    width: 1180px;
+}
+.copy{
+    background-color:  rgba(73, 73, 72, 0.253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 1180px;
+}
+ 
