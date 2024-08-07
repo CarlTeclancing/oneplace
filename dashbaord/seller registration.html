@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style seller reg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-header">
+            <img src="./images/Group 19-1_page-0001.jpg" alt="Company Logo" class="logo">
+            <select class="language-select">
+                <option value="english">English</option>
+
+            </select>
+        </div>
+        <form class="registration-form">
+            <label for="country">Country/Region</label>
+            <select id="country" name="country">
+                <option value="Cameroon">Cameroon</option>
+                <option value="Canada">Cameroon</option>
+                <option value="France">Cameroon</option>
+            </select>
+
+            <label for="trade-role">Please select trade role</label>
+            <div class="trade-role">
+                <input type="radio" id="buyer" name="trade_role" value="buyer">
+                <label for="buyer">Buyer</label>
+                <input type="radio" id="seller" name="trade_role" value="seller">
+                <label for="seller">Seller</label>
+                <input type="radio" id="both" name="trade_role" value="both">
+                <label for="both">Both</label>
+            </div>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Login Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirmed Password</label>
+            <input type="password" id="confirm-password" name="confirm_password" required>
+
+            <label for="company-name">Company Name</label>
+            <input type="text" id="company-name" name="company_name" required>
+
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full_name" required>
+
+            <label for="tel">Tel</label>
+            <div class="tel-input">
+                <input type="tel" id="tel" name="tel" placeholder="237 - Area - Phone number" required>
+            </div>
+
+
+            <div class="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to <a href="#">Terms of use</a>, <a href="#">Privacy policy</a></label>
+            </div>
+
+            <button type="submit">Agree and Register</button>
+        </form>
+    </div>
+</body>
+</html>
