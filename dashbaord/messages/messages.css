@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #020542;
+
+}
+.messages{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.message-col-1{
+    width: 40%;
+    height: 100px;
+    background-color: #2F2D52;
+    margin-top: 20px;
+}
+.col-1-head{
+    width: 100%;
+}
+.col-1-head-a{
+
+}
+.col-1-head-b{
+    
+}
+.message-col-2{
+    margin-top: 20px;
+    width: 60%;
+    background-color: #DDDDF7;
+}
+.msg-col-2-a{
+    width: 100%;
+    background-color: #5D5B8D;
+}

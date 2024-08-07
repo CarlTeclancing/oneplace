@@ -1,0 +1,15 @@
+body{
+
+}
+.messages{
+    width: 100%;
+    background-color: #020542;
+}
+.message-col-1{
+    width: 40%;
+    background-color: #2F2D52;
+}
+.message-col-2{
+    width: 60%;
+    background-color: #DDDDF7;
+}
