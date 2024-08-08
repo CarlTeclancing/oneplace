@@ -1,0 +1,458 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+.sub-nav-1{
+    margin-left: -600px;
+    
+}
+h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    
+}
+
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF; 
+    border-radius: 25px; 
+    width: 776px;
+    
+    
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 25px 0 0 25px; 
+    flex-grow: 1; 
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    background-color: #FFD700; 
+    border: none;
+    outline: none;
+    padding: 12px 30px; 
+    border-radius: 0 25px 25px 0; 
+}
+
+.search-button img {
+    width: 10pxpx; 
+    margin-right: 5px; 
+    
+}
+
+
+
+
+.sub-nav-2{
+    margin-left: -600px;
+    
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pad{
+    
+    margin-left: -1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.c{
+    margin-left: -400px;
+   
+}
+.O{
+    margin-left: -130PX;
+    margin-bottom: 80px;
+    
+}
+.pp{
+    width: 20px;
+    height: 20px;
+    margin-left: -240px;
+}
+.sh{
+    width: 20px;
+    height: 20px;
+    
+   
+}
+.u{
+    margin-left: 50px;
+}
+.home{
+    margin-right: 40px;
+}
+.pro{
+    margin-right: 40px;
+}
+.re{
+    margin-right: 40px;
+}
+.S{
+    margin-right: -900px;
+}
+.Ab{
+    margin-right: 40px;
+}
+.co{
+    margin-right: 40px;
+}
+.ou{
+   
+    margin-right: 40px;
+}
+.in{
+    width: 100px;
+    height: 49px;
+    border-style: none;
+    background-color: rgb(216, 216, 56);
+    border-radius: 20px;
+    color: #f4f4f4;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+h1{
+    margin-left: -1000px;
+    margin-top: 250px;
+}
+.le{
+    margin-right: 190px;
+}
+.name{
+    width: 800px;
+    height: 50px;
+    border-style: none;
+    background-color: rgb(250, 250, 247);
+    font-size: 18px;
+    margin-right: 1000px;
+    border-radius: 20px;
+    margin-top: -30px;
+
+}
+.cam{
+    margin-left: -80px;
+    width: 25px;
+    height: 20px;
+
+}
+
+.item{
+    
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    background-color: rgb(175, 175, 66);
+    border-radius: 20px;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-right: 180px;
+    margin-top: -20px;
+    align-items: center;
+
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 200px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+ 
+}
+.menu5{
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+ 
+
+}
+
+.menu li {
+    display: inline;
+}
+.menu{
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+ 
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.eye{
+    background-color: white;
+    
+    
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color:  #8f5d5d;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .logo-column h1 {
+    font-size: 24px;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .column ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .column-1{
+    margin-left: 400px;
+  }
+  
+  .footer-container{
+    flex-direction: column;
+  }
+
+
+  .as{
+    margin-left: 500px;
+    margin-top: -10px;
+  }
+
+
+  .su{
+    margin-left: 800px;
+    margin-top: -280px;
+
+  }
+ 
+
+  .mo{
+    margin-left: 1100px;
+    margin-top: -270px;
+    
+  }
+  .cop{
+    
+    margin-top: 140px;
+    margin-left: 700px;
+    
+  }
+
+  .fot{
+     width: 180px;
+     height: 80px;
+     justify-content: space-evenly;
+  }
+
+  .bu{
+    margin-top: -120px;
+  }
+
+
+
+
+
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #7a42f4; 
+    padding: 20px;
+  }
+  
+  .product-item {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-item h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+
+  
+
+.hero {
+    background: url('home\ image.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 400px 70px;
+    margin-top:-300px;
+    padding-top: 600px;
+    
+}
+.the{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: -1200px;
+    
+}
+h4{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 20px;
+
+}
+.hero  {
+    font-size: 36px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.category-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.category-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.subscription-form {
+    background-color: #f4f4f4;
+    padding: 150px;
+    text-align: center;
+    
+}
+
+.ff{
+    color: black;
+    border-style:none;
+    border-radius: 10px;
+    background-color:  #FBBC05;
+
+}
+
+
+.subscription-form h2 {
+    margin-bottom: 10px;
+}
+
+.subscription-form form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.subscription-form input {
+    padding: 10px;
+    width: 600px;
+    background-color: white
+    
+    
+}
+
+.subscription-form button {
+    padding: 10px 20px;
+    background-color: rgb(175, 175, 66);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: 400px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.uu{
+    background-color: #666;
+}
+    
+    
+
+.copyright{
+    margin-top: 250px;
+    margin-left: 500px;
+}
+

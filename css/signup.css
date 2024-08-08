@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain-1{
+    width: 60%;
+    margin-top: 35px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   
+   
+   
+}
+.img-logo{
+    width: 135px;
+    margin-left: 40%;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+.icon-field{
+    position: absolute;
+    left: 65%;
+    top: 37.7%;
+    width: 18px;
+    height: 18px;
+}
+.icon-field-1{
+    position: absolute;
+    left: 65%;
+    top: 57.7%;
+    width: 18px;
+    height: 18px;
+}
+.icon-field-2{
+    position: absolute;
+    left: 65%;
+    top: 67.7%;
+    width: 18px;
+    height: 18px;
+}
+.icon-field-3{
+    position: absolute;
+    left: 65%;
+    top: 47.7%;
+    width: 18px;
+    height: 18px;
+}
+.headx-1{
+    color: #070C90;
+    text-align: center;
+}
+.input-1{
+    width: 55%;
+    height: 28px;
+    border-radius: 18px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+label{
+    margin-left: 17%;
+}
+.check-box{
+    margin-left: 26%;
+}
+.label-1{
+    margin-left: 4px;
+    color: rgba(0, 0, 0, 0.555);
+    display: inline-block;
+}
+.password{
+    margin-right: 80px;
+    width: 52.8%;
+    height: 28px;
+    border-radius: 18px;
+    border: 1px solid black;
+    
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+.align-check{
+   
+    align-items: center;
+    justify-content: center;
+}
+.div-1{
+    display: flex;
+    align-items: center;
+    
+   
+}
+button{
+    width: 55%;
+    margin-left: 25%;
+    height: 28px;
+    border: none;
+    background: #FBBC05;
+    color: white;
+    font-weight: bold;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+.no-account{
+    
+    margin-left: 42%;
+    
+}
+.no-account-1{
+    margin-left: 274px;
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link-1{
+    margin-left: 12px;
+    color:#FBBC05;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.link-2{
+    color:red;
+    font-weight:400;
+    text-decoration: none;
+    
+}
