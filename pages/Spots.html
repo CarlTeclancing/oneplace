@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oneplace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #C0C0C0;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #1A2D77;
+            padding: 10px 20px;
+            color: #FFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        .header .search-bar input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            width: 300px;
+        }
+        .header .search-bar button {
+            padding: 10px;
+            background-color: #F4A400;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            color: white;
+        }
+        .header .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+        .header .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .main-content {
+            padding: 20px;
+            background-color: ivory;
+        }
+        .main-content .for-you-section {
+            margin-bottom: 30px;
+        }
+        .for-you-section img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .product-card {
+            background-color: #FFF;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 10px;
+        }
+        .product-card h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .product-card p {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        .product-card .price {
+            font-size: 18px;
+            color: #F4A400;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .product-card button {
+            padding: 10px 20px;
+            background-color: #F4A400;
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            background-color: #1A2D77;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">Oneplace</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search in One Place...">
+            <button>Search</button>
+        </div>
+        <div class="nav-links">
+            <a href="#">Products</a>
+            <a href="#">Product Review</a>
+            <a href="#">Sign In</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="for-you-section">
+            <h2>For You</h2>
+            <img src="/images/9c21488ac87b4c503e95de2eb5110461.jpg" height="700px" alt="">
+
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="/images/4318a6c9a9194e86cbb7fc5b50e542f8.jpg" width="300px" alt="Product Image" >
+                <h3>The Best Peloton Alternatives for Your Home Gym</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/9ebb5c5631c4aa3f45259c9858eb39f7.jpg" width="300px"   alt="Product Image">
+                <h3>Marcy Smith Machine / Cage System - MD-9010G</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/51eda912d999d498edc3084f405e1fdf.jpg" width="300px" alt="Product Image">
+                <h3>Fuel Pureformance Deluxe Fid Weight Bench</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/25caf394f9659179e8a54d4d6ee39d18.jpg"  width="300px" alt="Product Image">
+                <h3>Bike Roller Riding Platform</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            
+
+            <div class="product-card">
+                <img src="/images/dress10.jpg" alt="Product Image">
+                <h3>Sport Ball</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/84b33641ec45cfaef17d3faf9f940957.jpg" alt="Product Image">
+                <h3>Fuel Pureformance Deluxe Fid Weight Bench</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/e3db48ee96f683a3a081125fcefc1c3f.jpg" alt="Product Image">
+                <h3>Bike Roller Riding Platform</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/8db602533775bb3d874ee1dbf6cfd7c4.jpg" alt="Product Image">
+                <h3>Bike Roller Riding Platform</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="/images/dress10.jpg" alt="Product Image">
+                <h3>Playstation</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/9ebb5c5631c4aa3f45259c9858eb39f7.jpg" width="300px"   alt="Product Image">
+                <h3>Fuel Pureformance Deluxe Fid Weight Bench</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/51eda912d999d498edc3084f405e1fdf.jpg" width="300px" alt="Product Image">
+                <h3>Bike Roller Riding Platform</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/25caf394f9659179e8a54d4d6ee39d18.jpg"  width="300px" alt="Product Image">
+                <h3>Bike Roller Riding Platform</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="logo">Oneplace</div>
+        <p>Trade Assurance | Get support | More information</p>
+        <a href="#">Welcome to Oneplace</a>
+
+    </div>
+
+    <div>
+
+    </div>
+
+</body>
+</html>

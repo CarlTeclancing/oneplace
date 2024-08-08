@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #C0C0C0;
+        }
+
+        .chat-container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .sidebar {
+            width: 300px;
+            background-color: #2A2D5E;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar header {
+            background-color: #2A2D5E;
+            padding: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .sidebar .search-bar {
+            padding: 10px;
+            border-bottom: 1px solid #444;
+        }
+
+        .sidebar .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+
+        .sidebar .contact-list {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 20px 0;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .contact-item:hover {
+            background-color: #1D1F3B;
+        }
+
+        .contact-item img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        .contact-item .contact-info {
+            flex-grow: 1;
+        }
+
+        .contact-item .contact-info h4 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .contact-item .contact-info p {
+            margin: 0;
+            font-size: 12px;
+            color: #999;
+        }
+
+        /* Chat area */
+        .chat-area {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-header {
+            background-color: #383D70;
+            padding: 15px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .chat-header img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        .chat-header h4 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .chat-messages {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #E6EAF1;
+            overflow-y: auto;
+        }
+
+        .message {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        .message.sent {
+            justify-content: flex-end;
+        }
+
+        .message.received {
+            justify-content: flex-start;
+        }
+
+        .message .message-content {
+            max-width: 60%;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .message.sent .message-content {
+            background-color: #7993DB;
+            color: white;
+        }
+
+        .message.received .message-content {
+            background-color: white;
+            color: #333;
+        }
+
+        .message .message-time {
+            font-size: 10px;
+            margin-top: 5px;
+            color: #999;
+            text-align: right;
+        }
+
+        .chat-input {
+            padding: 20px;
+            background-color: #FFF;
+            display: flex;
+            border-top: 1px solid #ccc;
+        }
+
+        .chat-input input {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            outline: none;
+        }
+
+        .chat-input button {
+            background-color: #7993DB;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50%;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chat-container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <header>Oneplace Chat</header>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="contact-list">
+            <div class="contact-item">
+                <img src="/images/download.jpeg" alt="User">
+                <div class="contact-info">
+                    <h4>Herbert Ferguson</h4>
+                    <p>Someone referred me to the app to...</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <img src="/images/download (1).jpeg" alt="User">
+                <div class="contact-info">
+                    <h4>Amy Daniel</h4>
+                    <p>I want a Nike shoe at an expensive p...</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <img src="/images/download (2).jpeg" alt="User">
+                <div class="contact-info">
+                    <h4>Bessie McCoy</h4>
+                    <p>I love this app so much</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <img src="/images/download (3).jpeg" alt="User">
+                <div class="contact-info">
+                    <h4>Amy Daniel</h4>
+                    <p>I want a Nike shoe at an expensive p...</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <img src="/images/download (4).jpeg" alt="User">
+                <div class="contact-info">
+                    <h4>Amy Daniel</h4>
+                    <p>I want a Nike shoe at an expensive p...</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <img src="/images/download (5).jpeg" alt="User">
+                <div class="contact-info">
+                    <h4>Amy Daniel</h4>
+                    <p>I want a Nike shoe at an expensive p...</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <img src="/images/download (6).jpeg" alt="User">
+                <div class="contact-info">
+                    <h4>Amy Daniel</h4>
+                    <p>I want a Nike shoe at an expensive p...</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <img src="/images/pexels-emrecanalgul-25950732.jpg" alt="User">
+                <div class="contact-info">
+                    <h4>Amy Daniel</h4>
+                    <p>I want a Nike shoe at an expensive p...</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <img src="/images/pexels-hasibullah-zhowandai-248954-819530.jpg" alt="User">
+                <div class="contact-info">
+                    <h4>Amy Daniel</h4>
+                    <p>I want a Nike shoe at an expensive p...</p>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <img src="/images/pexels-moh-adbelghaffar-783941.jpg" alt="User">
+                <div class="contact-info">
+                    <h4>Amy Daniel</h4>
+                    <p>I want a Nike shoe at an expensive p...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-area">
+        <div class="chat-header">
+            <div>
+                <img src="/images/download.jpeg" alt="User">
+                <h4>Herbert Ferguson</h4>
+            </div>
+        </div>
+
+        <div class="chat-messages">
+            <div class="message received">
+                <div>
+                    <div class="message-content">yes we have all what you need. Just send a picture of what you want and we will get right for you.</div>
+                    <div class="message-time">12:15pm</div>
+                </div>
+            </div>
+            <div class="message received">
+                <div>
+                    <div class="message-content">And please just to remind you that we sell good and quality products at your disposal</div>
+                    <div class="message-time">12:20pm</div>
+                </div>
+            </div>
+            <div class="message received">
+                <div>
+                    <div class="message-content">Just as if you know we have this. We have this at different sizes.</div>
+                    <div class="message-time">12:23pm</div>
+                </div>
+            </div>
+            <div class="message received">
+                <div>
+                    <div class="message-content">Just indicate the size and we will get that for you</div>
+                    <div class="message-time">12:30pm0</div>
+                </div>
+            </div>
+            <div class="message sent">
+                <div>
+                    <div class="message-content"><img src="Images\9ebb5c5631c4aa3f45259c9858eb39f7.jpg" alt="Image" style="max-width: 100%; border-radius: 10px;"></div>
+                    <div class="message-time">12:33pm</div>
+                </div>
+            </div>
+            
+            <div class="message received">
+                <div>
+                    <div class="message-content">I know I will find it here at oneplace. My shoe size is 38.</div>
+                    <div class="message-time">12:34pm</div>
+                </div>
+            </div>
+            <div class="message received">
+                <div>
+                    <div class="message-content">Thank you for believing in us. We will get back to you shortly.</div>
+                    <div class="message-time">12:40pm</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" placeholder="Type something to send...">
+            <button>&#9658;</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

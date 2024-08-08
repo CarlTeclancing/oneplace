@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oneplace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #C0C0C0;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #1A2D77;
+            padding: 10px 20px;
+            color: #FFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        .header .search-bar input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            width: 300px;
+        }
+        .header .search-bar button {
+            padding: 10px;
+            background-color: #F4A400;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            color: white;
+        }
+        .header .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+        .header .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .main-content {
+            padding: 20px;
+            background-color: ivory;
+        }
+        .main-content .for-you-section {
+            margin-bottom: 30px;
+        }
+        .for-you-section img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .product-card {
+            background-color: #FFF;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 10px;
+        }
+        .product-card h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .product-card p {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        .product-card .price {
+            font-size: 18px;
+            color: #F4A400;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .product-card button {
+            padding: 10px 20px;
+            background-color: #F4A400;
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            background-color: #1A2D77;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">Oneplace</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search in One Place...">
+            <button>Search</button>
+        </div>
+        <div class="nav-links">
+            <a href="#">Products</a>
+            <a href="#">Product Review</a>
+            <a href="#">Sign In</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="for-you-section">
+            <h2>For You</h2>
+            <img src="/images/5580a1a9013399e675be5cd227cbf705.jpg" height="700px" alt="">
+
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="/images/811159f65297520eb49cd840d4f8fe4f.jpg" width="190px"  alt="Product Image" >
+                <h3>Outline Pro 28' Hardside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/7966661af62c031bfbaa7cb37a1689aa.jpg" width="220px"   alt="Product Image">
+                <h3>Austin 4 Piece Hardside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/c355a8ed98b1e65e51fd57db90bc638d.jpg" width="220px" alt="Product Image">
+                <h3>Silhouette 17 29' Check-in</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/cee2d1da93e523cac5537522896b2394.jpg"  width="300px" alt="Product Image">
+                <h3>Outline Pro Luggage</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            
+
+            <div class="product-card">
+                <img src="/images/d6b517259e073429d7149824cf658f71.jpg" width="220px" alt="Product Image">
+                <h3>Platinum Elite 25' Softside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/f3a9cb054dfffdca4e3a97c181eb46e4.jpg" width="280px" alt="Product Image">
+                <h3>Crew Classic Large</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/5580a1a9013399e675be5cd227cbf705.jpg" width="350px" alt="Product Image">
+                <h3>Platinum Elite 25' Softside</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/811159f65297520eb49cd840d4f8fe4f.jpg" width="200px"  alt="Product Image" >
+                <h3>Platinum Elite 25' Softside</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="/images/7966661af62c031bfbaa7cb37a1689aa.jpg" width="220px"   alt="Product Image">
+                <h3>Platinum Elite 25' Softside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/7966661af62c031bfbaa7cb37a1689aa.jpg" width="220px"   alt="Product Image">
+                <h3>Platinum Elite 25' Softside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/c355a8ed98b1e65e51fd57db90bc638d.jpg" width="220px" alt="Product Image">
+                <h3>Platinum Elite 25' Softside</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/d6b517259e073429d7149824cf658f71.jpg" width="220px" alt="Product Image">
+                <h3>Platinum Elite 25' Softside</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="/images/c355a8ed98b1e65e51fd57db90bc638d.jpg" width="220px" alt="Product Image">
+                <h3>Outline Pro 28' Hardside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/7966661af62c031bfbaa7cb37a1689aa.jpg" width="220px"   alt="Product Image">
+                <h3>Outline Pro 28' Hardside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/9fb44fb399c4b130c7799c1b401aa42e.jpg" width="210px" alt="Product Image">
+                <h3>Outline Pro 28' Hardside</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/811159f65297520eb49cd840d4f8fe4f.jpg" width="200px"  alt="Product Image" >
+                <h3>Bike Roller Riding Platform</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="/images/7966661af62c031bfbaa7cb37a1689aa.jpg" width="220px"   alt="Product Image">
+                <h3>Outline Pro 28' Hardside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/811159f65297520eb49cd840d4f8fe4f.jpg" width="200px"  alt="Product Image" >
+                <h3>Outline Pro 28' Hardside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/7966661af62c031bfbaa7cb37a1689aa.jpg" width="220px"   alt="Product Image">
+                <h3>Lightview 3pc Hardside</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/cee2d1da93e523cac5537522896b2394.jpg"  width="300px" alt="Product Image">
+                <h3>Lightview 3pc Hardside</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="/images/5580a1a9013399e675be5cd227cbf705.jpg" width="350px" alt="Product Image">
+                <h3>Lightview 3pc Hardside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/Images\f3a9cb054dfffdca4e3a97c181eb46e4.jpg" width="280px" alt="Product Image">
+                <h3>Lightview 3pc Hardside</h3>
+                <p>Available to be purchased. New and Improved.</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/d6b517259e073429d7149824cf658f71.jpg" width="220px" alt="Product Image">
+                <h3>Lightview 3pc Hardside</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+            <div class="product-card">
+                <img src="/images/9fb44fb399c4b130c7799c1b401aa42e.jpg" width="210px" alt="Product Image">
+                <h3>Outline Pro 28' Hardside</h3>
+                <p>Custom design men’s casual Jacket Barth</p>
+                <p class="price">US$8.95 - US$23.95</p>
+                <button>Check Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="logo">Oneplace</div>
+        <p>Trade Assurance | Get support | More information</p>
+        <a href="#">Welcome to Oneplace</a>
+
+    </div>
+
+    <div>
+
+    </div>
+
+</body>
+</html>
