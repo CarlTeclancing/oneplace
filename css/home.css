@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: blue;
+    background-color:  #B7B7B7;
 }
 
 .sub-nav-1{
-    margin-left: -600px;
+    
     
 }
 h4{
@@ -71,6 +71,7 @@ header {
 }
 
 nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,8 +101,8 @@ nav {
     margin-left: -240px;
 }
 .sh{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    
     
    
 }
@@ -109,7 +110,7 @@ nav {
     margin-left: 50px;
 }
 .home{
-    margin-right: 40px;
+    
 }
 .pro{
     margin-right: 40px;
@@ -353,7 +354,7 @@ h1{
   
 
 .hero {
-    background: url('home\ image.png') no-repeat center center/cover;
+    background: url('../Images/home\ image.png') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 400px 70px;
@@ -454,5 +455,69 @@ h4{
 .copyright{
     margin-top: 250px;
     margin-left: 500px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: #B7B7B7;
+}
+.footer-img{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.para-3-foot{
+    text-align: center;
+    font-weight: bold;
+    color: #070C90;
+    letter-spacing: 0.5px;
+    font-size: 14.5px;
+}
+.li-foot{
+    text-align: center;
+    color: #070C90;
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+}
+
+.col-1-foot{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.col-1-foot-a{
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+.para-1-foot{
+    font-size: 10px;
+}
+h3{
+    color: #070C90;
+}
+#col-1-footID{
+    display: block;
+    margin-left: 30px;
+}
+li{
+    margin-top: 7px;
+    list-style: none;
+}
+.menu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub-nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 

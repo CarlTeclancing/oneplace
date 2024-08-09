@@ -45,6 +45,10 @@ a{
     padding-right: 10px;
     color: rgba(0, 0, 0, 0.47);
 }
+.signup{
+    color: white;
+    font-weight: bold;
+}
 .img-svg{
     margin-right: 7px;
     margin-top: 5px;
